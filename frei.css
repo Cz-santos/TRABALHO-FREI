@@ -55,6 +55,7 @@ body{
     height: 45em;
     margin-top: 1em;
     align-items: center;
+    position: relative;
 
 }
 .direita{
@@ -110,12 +111,44 @@ font-size: 0.8em;
     display: flex;
     flex: 1;
     height: 45em;
-    clip-path: ellipse(95% 100% at 100% 30%);
+    clip-path: ellipse(97% 100% at 100% 30%);
 }
 
 .esquerda img{
    width: 100%;
    height: 100%;
    object-fit: cover;
+}
+
+.meio2{
+    display: flex;
+    
+}
+.estudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    
+   
+}
+ .meio2 h1{
+    font-size: 2.2em;
+    color:#1949e8;
+}
+.estudo p{
+    display: flex;
+    font-size: 2em;
+}
+.estudo a{
+    font-size: 2em;
+    text-decoration: none;
+    padding: 0.6em 0.7em ;
+    border:  solid rgba(38, 42, 230, 0.425) 0.1em;
+    background-color: #1949e8;
+    color: white;
+    border-radius: 0.3em;
+    box-shadow: #7f8ee4 0.1em 0.1em 0.4em 0.2em;
 }
 
