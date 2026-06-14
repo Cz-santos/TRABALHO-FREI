@@ -118,4 +118,66 @@ font-size: 0.8em;
    height: 100%;
    object-fit: cover;
 }
+.info{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    margin-top: 3em;
+    align-items: center;
+    gap: 9em;
+    border: solid 0.1em gainsboro;
+}
 
+.info h1{
+    color: #1949e8;
+
+}
+.educação{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 1.3em; 
+    border-radius: 2em;
+    padding: 2em ;
+
+    
+}
+.soli{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 1.3em;
+    border:  0.1em solid gainsboro;
+    padding: 3em ;
+    width: 20em;
+    
+}
+.comunidade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 1.3em;
+    padding: 2em ;
+    border-radius: 2em;
+}
+.educação img{
+    display: flex;
+    background-color: #e6eaeb;
+    border-radius: 9em;
+    padding: 0.6em 0.6em ;
+}
+.soli img{
+    display: flex;
+    background-color: #e6eaeb;
+    border-radius: 9em;
+    padding: 0.6em 0.6em ;
+}
+.comunidade img{
+    display: flex;
+    background-color: #e6eaeb;
+    border-radius: 9em;
+    padding: 0.6em 0.6em ;
+}
