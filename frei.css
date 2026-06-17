@@ -65,11 +65,11 @@ body{
     flex-direction: column;
     font-size: 2em;
     margin-left:3em;
-    justify-content: center;
-    backdrop-filter: blur();
+    justify-content: center
 }
 .direita h1{
     font-size: 1.9em;
+   
 }
 .direita h3{
 color: #1949e8;
@@ -79,6 +79,7 @@ font-size: 0.8em;
 .bot{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 1.5em;
 }
 .bot a{
@@ -92,6 +93,7 @@ font-size: 0.8em;
     padding: 0.6em 2em ;
     border-radius: 0.5em;
     color: white;
+    box-shadow: 0.2em 0.4em 0.7em 0.1em rgb(124, 127, 255);
 }
 .but1 a{
     color: white;
@@ -105,6 +107,7 @@ font-size: 0.8em;
     border-radius: 0.5em;
     color: #1949e8;
     border: #1949e8 solid 0.1em;
+    box-shadow: 0.2em 0.4em 0.7em 0.1em rgb(124, 127, 255)
 }
 .but2 a{
     color:  #1949e8;
@@ -187,51 +190,113 @@ font-size: 0.8em;
     border-radius: 2em;
     padding: 0.6em 0.6em ;
 }
-/* joao victor */
-
-
-.text12{
-    text-align: center;
-    margin-top: 3em;
-    color: darkblue;
-    text-decoration: underline;
-    h1{
-        font-size: 30px;
-    }
-}
-
 .cursosbg{
-    justify-content: space-around;
     display: flex;
-    margin-top: 5em;
-    background-color: #a5bafc;
-    box-sizing: border-box;
-    color: black;
-    text-align: center;
-    text-decoration: underline;
-    flex-direction: column ;
-    p{
-        font-size:  3em;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-    }
-img{
-    margin-top: 2em;
-    height: 10em;
-    width: 10em;;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
 }
-}
-
-.titulo34{
-    margin-top: 3.5em;
-    background-color: #a5bafc;
-    box-sizing: border-box;
-    p{
-        font-family:Arial, Helvetica, sans-serif ;
-        font-size: 2.5em;
-    }
+.cursosbg h1{
+    font-size: 4em;
+    color: blue;
 }
 .cur{
     display: flex;
-    flex-direction: row;
-    gap: 9em;
+    gap: 4em;
+    
+}
+ 
+.adm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    font-size:2em ;
+    border: solid 0.1em rgb(0, 255, 0);
+    border-radius: 2em;
+    width: 13em;
+    height: 15em;
+    color: rgb(0, 0, 0);
+    box-shadow: 0.2em 3em 3em green;
+}
+.adm h5{
+    color:  rgb(70, 160, 70)
+}
+.adm .boto{
+    background-color:  rgb(70, 160, 70);
+}
+
+.cv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+      border: solid 0.1em rgb(241, 21, 230);
+    font-size:2em ; 
+     width: 13em;
+    height: 15em;
+    border-radius: 2em;
+    color: rgb(0, 0, 0);
+      box-shadow: 0.2em 3em 3em rgb(241, 21, 230);
+}
+.cv h5{
+ color: rgb(241, 21, 230)
+}
+.cv .boto{
+    background-color:  rgb(185, 29, 178);
+}
+.english{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+      border: solid 0.1em red;
+    font-size:2em ;
+     width: 13em;
+    height: 15em;
+    border-radius: 2em;
+    color: rgb(0, 0, 0);
+       box-shadow: 0.2em 3em 3em red;
+}
+.english h5{
+    color: red;
+    
+}
+.english .boto{
+    background-color: rgb(202, 33, 33);
+}
+
+.informatica{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+     border: solid 0.1em  blue;;
+    font-size:2em ;
+     width: 13em;
+    height: 15em;
+    border-radius: 2em;
+    box-shadow: 0.2em 3em 3em blue;
+}
+.informatica h5{
+    color: blue;
+}
+.informatica .boto{
+    background-color: blue;
+}
+
+h5{
+    font-size: x-large;
+
+}
+
+.boto{
+    font-size: 1.2em;
+    padding: 0.4em 0.3em ;
+    color: white;
+    border-radius: 0.2em;
 }
