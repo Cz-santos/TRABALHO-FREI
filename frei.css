@@ -32,6 +32,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+.butao:hover{
+    color: red;
+}
 .butao a{
     text-decoration: none;
     color: #1c286a;
@@ -194,11 +197,12 @@ font-size: 0.8em;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2em;
+    gap: 3em;
+    margin-top: 5em;
 }
 .cursosbg h1{
     font-size: 4em;
-    color: blue;
+    color: #1949e8;
 }
 .cur{
     display: flex;
@@ -218,7 +222,7 @@ font-size: 0.8em;
     width: 13em;
     height: 15em;
     color: rgb(0, 0, 0);
-    box-shadow: 0.2em 3em 3em green;
+    box-shadow: 0.2em 1em 3em green;
 }
 .adm h5{
     color:  rgb(70, 160, 70)
@@ -239,7 +243,7 @@ font-size: 0.8em;
     height: 15em;
     border-radius: 2em;
     color: rgb(0, 0, 0);
-      box-shadow: 0.2em 3em 3em rgb(241, 21, 230);
+      box-shadow: 0.2em 1em 1em rgb(241, 21, 230);
 }
 .cv h5{
  color: rgb(241, 21, 230)
@@ -259,7 +263,7 @@ font-size: 0.8em;
     height: 15em;
     border-radius: 2em;
     color: rgb(0, 0, 0);
-       box-shadow: 0.2em 3em 3em red;
+       box-shadow: 0.2em 1em 1em red;
 }
 .english h5{
     color: red;
@@ -280,7 +284,7 @@ font-size: 0.8em;
      width: 13em;
     height: 15em;
     border-radius: 2em;
-    box-shadow: 0.2em 3em 3em blue;
+    box-shadow: 0.2em 1em 1em blue;
 }
 .informatica h5{
     color: blue;
@@ -307,29 +311,161 @@ h5{
 .parcerias {
     display: flex;
     justify-content: center;
-    color: rgb(0, 0, 119);
+    color: #112d88;
     text-decoration: none;
     border-radius: 0.2em;
     height: 7em;
     align-items: center;
-    margin-top: 4em;
+    margin-top: 2em;
     font-size: 2em;
 }
 
 .cont{
-    margin-top: 2em;
+    
     display: flex;
+    margin-top: 0.2em;
     justify-content: center;
     border-radius: 1em;
-    background-image: linear-gradient(45deg,rgb(53, 53, 245),#a5bafc);
+    background-image: linear-gradient(45deg,rgb(0, 0, 190),#2c54da);
     justify-content: space-around;
     height: 20em;
     align-items: center;
 }
 
-.cont img {
+.oly{
+    display: flex;
+    border: 0.3em rgb(2, 78, 2) solid;
+    width: 15em;
+    height: 15em;
+    border-radius: 30em;
+}
+.unisa{
     width: 15em;
     height: 15em;
     border: solid rgb(0, 0, 90) 0.2em;
     border-radius: 30em;
+}
+.grajau{
+    width: 15em;
+    height: 15em;
+    border: solid rgb(255, 94, 0) 0.3em;
+    border-radius: 30em;
+}
+.sao{
+    width: 15em;
+    height: 15em;
+    border: solid red 0.3em;
+    border-radius: 30em;
+}
+.serpro{
+    width: 15em;
+    height: 15em;
+    border: solid blue 0.3em;
+    border-radius: 30em;
+}
+.help{
+    width: 15em;
+    height: 15em;
+    border: solid rgb(233, 101, 101) 0.3em;
+    border-radius: 30em;
+}
+
+
+/* GABRIEL LUCAS E EROS  */
+.contato {
+    background-color: rgb(255, 145, 0);
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    background-image: url(azul.webp);
+    background-size: cover;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    margin-top: 10em;
+}
+
+.primeira {
+
+    width: 50em;
+    height: 50em;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-image: linear-gradient(blue, rgb(85, 85, 255));
+    border-radius: 100%;
+    justify-content: center;
+    box-shadow: 1.5em 1.5em 3.5em 2em rgba(0, 38, 161, 0.5);
+}
+
+.freoto {
+    width: 20em;
+    height: 20em;
+
+    margin-left: 15em;
+}
+
+.isnsf {
+    text-align: center;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    margin-left: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.informa {
+    text-align: center;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.iknow {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.informa img {
+    width: 5em;
+    height: 5em;
+  
+}
+
+.numero{
+background-color: rgb(88, 176, 235);
+display:flex;
+align-items: center;
+border-radius: 0.5em;
+margin-top: 1em;
+gap: 1em;
+}
+
+.endereÃ§o{
+background-color: rgb(88, 176, 235);
+display:flex;
+align-items: center;
+border-radius: 1em;
+margin-top: 2em;
+gap: 1em;
+}
+
+.locali{
+background-color: rgb(88, 176, 235);
+display:flex;
+align-items: center;
+border-radius: 1.5em;
+margin-top: 3em;
+gap: 1em;
+}
+
+.h22{
+color: rgb(255, 255, 255);
+font-size: 3em;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: underline;
+
 }
