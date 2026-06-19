@@ -32,8 +32,10 @@ body{
     justify-content: center;
     align-items: center;
 }
-.butao:hover{
-    color: red;
+
+.butao a:hover{
+    color: #013af4;
+    text-decoration: underline;
 }
 .butao a{
     text-decoration: none;
@@ -49,9 +51,19 @@ body{
     justify-content: center;
     border-radius: 0.8em ;
     gap: 0.2em;
+    
 }
 .doe a{
-    color: white;
+    color: white; 
+}
+.doe:hover{
+    background-color: #5079ff;
+    transform: translatey(-0.2em) scale(1.1);
+}
+.doe a:hover{
+    text-decoration: none;
+    background-color: #5079ff;
+    color: #112d88;
 }
 .meio{
     display: flex;
@@ -88,6 +100,7 @@ font-size: 0.8em;
 .bot a{
     text-decoration: none;
 }
+
 .but1{
     display: flex;
     justify-content: center;
@@ -101,7 +114,22 @@ font-size: 0.8em;
 .but1 a{
     color: white;
     text-decoration: none;
+    display: inline-block;
 }
+
+.but1:hover{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.6em 2em ;
+    border-radius: 0.5em;
+    color: #003cff;
+    border: #1949e8 solid 0.1em;
+    box-shadow: 0.2em 0.4em 0.7em 0.1em rgb(124, 127, 255);
+    background-color:#5079ff ;
+    transform: translateY(0.2) scale(9);
+}
+
 .but2{
     display: flex;
     justify-content: center;
@@ -114,6 +142,17 @@ font-size: 0.8em;
 }
 .but2 a{
     color:  #1949e8;
+}
+
+.but2:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #97b0ff;
+    padding: 0.6em 2em ;
+    border-radius: 0.5em;
+    color: rgb(255, 255, 255);
+    box-shadow: 0.2em 0.4em 0.7em 0.1em rgb(124, 127, 255);
 }
 .esquerda{
     display: flex;
@@ -230,6 +269,12 @@ font-size: 0.8em;
 .adm .boto{
     background-color:  rgb(70, 160, 70);
 }
+.adm:hover{
+    transform: translateY(-1.3em) scale(1.1);
+}
+.adm a:hover{
+    color: greenyellow;
+}
 
 .cv{
     display: flex;
@@ -251,6 +296,10 @@ font-size: 0.8em;
 .cv .boto{
     background-color:  rgb(185, 29, 178);
 }
+.cv:hover{
+    transform: translateY(-1.3em) scale(1.1);
+}
+
 .english{
     display: flex;
     flex-direction: column;
@@ -272,6 +321,9 @@ font-size: 0.8em;
 .english .boto{
     background-color: rgb(202, 33, 33);
 }
+.english:hover{
+     transform: translateY(-1.3em) scale(1.1);
+}
 
 .informatica{
     display: flex;
@@ -292,6 +344,9 @@ font-size: 0.8em;
 .informatica .boto{
     background-color: blue;
 }
+.informatica:hover{
+     transform: translateY(-1.3em) scale(1.1);
+ }
 
 h5{
     font-size: x-large;
@@ -339,35 +394,59 @@ h5{
     height: 15em;
     border-radius: 30em;
 }
+.oly:hover{
+    transform: translateY(-0.3em) scale(1.1);
+    border:  rgb(15, 255, 15) solid 0.4em;
+}
 .unisa{
     width: 15em;
     height: 15em;
     border: solid rgb(0, 0, 90) 0.2em;
     border-radius: 30em;
 }
+.unisa:hover{
+    transform: translateY(-0.3em) scale(1.1);
+    border: solid rgb(28, 28, 97) 0.4em;
+}
 .grajau{
     width: 15em;
     height: 15em;
-    border: solid rgb(255, 94, 0) 0.3em;
+    border: solid rgb(255, 136, 0) 0.3em;
     border-radius: 30em;
+}
+.grajau:hover{
+    transform: translateY(-0.3em) scale(1.1);
+    border: solid rgb(255, 94, 0) 0.4em;
 }
 .sao{
     width: 15em;
     height: 15em;
-    border: solid red 0.3em;
+    border: solid rgb(241, 6, 6) 0.3em;
     border-radius: 30em;
+}
+.sao:hover{
+    transform: translateY(-0.3em) scale(1.1);
+      border: solid red 0.4em;
 }
 .serpro{
     width: 15em;
     height: 15em;
-    border: solid blue 0.3em;
+    border: solid rgb(46, 46, 231) 0.3em;
     border-radius: 30em;
+}
+.serpro:hover{
+    transform: translateY(-0.3em) scale(1.1);
+      border: solid blue 0.4em;
 }
 .help{
     width: 15em;
     height: 15em;
     border: solid rgb(233, 101, 101) 0.3em;
     border-radius: 30em;
+}
+.help:hover{
+    transform: translateY(-0.3em) scale(1.1);
+      border: solid rgb(233, 101, 101) 0.4em;
 }
 
 
@@ -382,7 +461,8 @@ h5{
     justify-content: space-around;
     height: 100vh;
     align-items: center;
-    margin-top: 10em;
+    margin-top: 5em;
+    border-radius: 2EM;
 }
 
 .primeira {
